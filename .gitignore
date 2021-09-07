@@ -1,0 +1,12 @@
+data/*
+!data/banned-ips.json
+!data/banned-players.json
+!data/ops.json
+!data/whitelist.json
+!data/server.properties
+
+logs/
+world/
+config/
+journeymap/
+snapshots-server/
