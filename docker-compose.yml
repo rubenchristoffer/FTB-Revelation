@@ -4,6 +4,7 @@ services:
     build: .
     ports: 
       - "25565:25565"
+    restart: always
     image: rubenchristoffer/ftb_revelation:3.5.0
     volumes: 
       - ./data/logs:/root/logs
